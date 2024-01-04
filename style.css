@@ -9,19 +9,16 @@
     background-color: #333;
     padding: 10px; 
     flex-direction: column;
+    gap:60px;
     
 }
-.nav-container{
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    
-    
-}
+
 #nav-container-1{
     display: flex;
     justify-content: space-between;
     gap: 30px;
     width: auto;
+    height: 100px;
     
     
 
@@ -79,3 +76,23 @@ button:hover {
     font-weight: bolder;
     font-size: 25px;
 }   
+#nav-container-2{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    gap: 100px;
+  
+    background-size:cover;
+    /* opacity: 0.5; */
+}
+.welcome-nav img{
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    background-image: url(./Images/pngtree-technology-web-banner-style-background-design-picture-image_1246232.jpg.png);
+    background-repeat: no-repeat;
+    background-position:-820px -100px;
+    margin-left: 50px;
+    z-index: 1;
+}
